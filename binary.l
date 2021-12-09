@@ -6,7 +6,7 @@
 
 %%
 
-[0-1]+    { printf("binary"); }
+0?1+[0-1]*    { printf("binary"); }
 
 %%
 
