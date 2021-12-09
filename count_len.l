@@ -8,7 +8,7 @@ int count=0;
 
 %%
 
-^[a-z]{3,8}$ {  count++;printf("count %d",count);} //if length of word is between 3&8 the count will increment
+^[a-z]{3,8}$ { count++;printf("count %d",count);} //if length of word is between 3&8 the count will increment
 
 %%
 

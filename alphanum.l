@@ -3,7 +3,7 @@
 %}
 
 %%
-^[a-zA-Z0-9]*$ {printf("String of length %d\n",yyleng);}
+^[a-zA-Z0-9]*$ { printf("String of length %d\n",yyleng);}
 %%
 
 int yywrap()
