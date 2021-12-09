@@ -3,7 +3,7 @@
 %}
 
 %%
-^[aA-zZ _][aA-zZ 0-9]*$ { printf("Valid identifier");}
+^[aA-zZ _][aA-zZ 0-9]*$ {  printf("Valid identifier");}
 %%
 
 int yywrap()
