@@ -19,7 +19,7 @@ int yywrap(){
 
 int main(){
     extern FILE *yyin,*yyout;
-    yyin=fopen("example.html","r");
+    yyin=fopen("input.html","r");
     yyout=fopen("out.txt","w");
     yylex();
     return 0;
