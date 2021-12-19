@@ -6,7 +6,7 @@
 
 %%
 
-^[aA-zZ _][aA-zZ _ 0-9]*$ { printf("Valid identifier");}
+^[aA-zZ _][aA-zZ _ 0-9]*$ {printf("Valid identifier");}
 
 %%
 

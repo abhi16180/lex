@@ -1,2 +1,4 @@
 *.exe
 lex.yy.c
+.txt
+.c
