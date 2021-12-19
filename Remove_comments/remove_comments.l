@@ -22,7 +22,7 @@ int yywrap(){
 
 int main(){
     extern FILE *yyin,*yyout;
-    yyin=fopen("example.c","r");
+    yyin=fopen("input.c","r");
     yyout=fopen("out.txt","w");
     yylex();
     return 0;
