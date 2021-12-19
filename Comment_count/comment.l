@@ -11,6 +11,7 @@ int multiLine=0;
 "//".*             {singleLine++;}
 
 \/\*(.*\n)*.*\*\/  {multiLine++;}
+
 . {;}
  
 %%
@@ -22,7 +23,7 @@ int yywrap(){
 
 int main(){
     extern FILE *yyin,*yyout;
-    yyin=fopen("example.c","r");
+    yyin=fopen("input.c","r");
     yylex();
     printf("Single line comments = %d \nMultiline comments = %d ",singleLine,multiLine);
     return 0;
