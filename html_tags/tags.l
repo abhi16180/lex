@@ -5,9 +5,10 @@
 %}
 
 
-%%
 
-"<".*">"  {fprintf(yyout,"%s",yytext);}
+
+%%
+"<"[^>]|*>   {fprintf(yyout,"%s",yytext);}
 .*   {printf("Not an html tag");}
  
 %%
