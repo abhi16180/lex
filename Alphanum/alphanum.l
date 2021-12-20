@@ -3,8 +3,8 @@
 %}
 
 %%
-[0-9]+ {printf("number\n");}
-[aA-zZ]+ {printf("Alphabet\n");}
+[0-9] {printf("number\n");}
+[aA-zZ] {printf("Alphabet\n");}
 .  {printf("Special character\n");}
 %%
 
