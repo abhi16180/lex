@@ -7,8 +7,8 @@
 
 %%
 
-"<".*">"  {fprintf(yyout,"%s",yytext);}
-.*   {printf("Not an html tag")}
+\<.*\>  {fprintf(yyout,"%s\n",yytext);}
+.*   {printf("Not an html tag\n");}
  
 %%
 
