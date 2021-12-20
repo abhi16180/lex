@@ -3,7 +3,9 @@
 %}
 
 %%
-^[a-zA-Z0-9]*$ { printf("String of length %d\n",yyleng);}
+[0-9]+ {printf("number\n");}
+[aA-zZ]+ {printf("Alphabet\n");}
+.  {printf("Special character\n");}
 %%
 
 int yywrap()
