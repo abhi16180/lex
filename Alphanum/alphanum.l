@@ -3,9 +3,9 @@
 %}
 
 %%
-[0-9] {printf("number\n");}
-[aA-zZ] {printf("Alphabet\n");}
-.  {printf("Special character\n");}
+[0-9] {printf("It is a number\n");}
+[aA-zZ] {printf("It is an alphabet\n");}
+.  {printf("It is a special character\n");}
 %%
 
 int yywrap()
