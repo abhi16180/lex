@@ -1,6 +1,8 @@
 # Lex programs for SS Tutorial
 Fork repo and create pull request to contribute
 </br></br>
-Linux: "../compile.sh <filename>.l"
-</br>  
-Windows: "..\compile.bat <filename>.l"
+Compilation:
+</br>
+Linux - "../compile.sh <filename>.l"
+</br>
+Windows - "..\compile.bat <filename>.l"
