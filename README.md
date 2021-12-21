@@ -3,6 +3,6 @@ Fork repo and create pull request to contribute
 </br></br>
 Compilation:
 </br>
-Linux - "../compile.sh <filename>.l"
+Linux - "../compile.sh _fileName_.l"
 </br>
-Windows - "..\compile.bat <filename>.l"
+Windows - "..\compile.bat _fileName_.l"
