@@ -1,8 +1,7 @@
 %{
 #include<stdio.h>
 #include<string.h>
-int max=0;
-char a[100];
+
 %}
 
 
