@@ -10,7 +10,7 @@ char a[100];
 
 [aA-zZ]*  { if(yyleng>max){max=yyleng; strcpy(a,yytext);} } 
 
-.&*  {;}
+.  {;}
 
 
 %%
