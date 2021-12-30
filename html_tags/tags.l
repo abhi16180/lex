@@ -9,8 +9,8 @@
 
 
 %%
-"<"[^>]|*>   {fprintf(yyout,"%s",yytext);}
-.*   {printf("Not an html tag");}
+\<[^>]*|>   {fprintf(yyout,"%s",yytext);}
+.|\n*   {printf("Not an html tag %s \n",yytext);}
  
 %%
 
