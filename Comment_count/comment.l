@@ -9,8 +9,8 @@ int multiLine=0;
 %%
 
 "//".*             {singleLine++;}
-
-\/\*(.*\n)*.*\*\/  {multiLine++;}
+"/*"[^\n]*"*/"     {singleLine++;}
+"/*"[^*/]*"*/"     {multiLine++;}
 
 . {;}
  
