@@ -2,3 +2,5 @@
 lex.yy.c
 *.txt
 *.out
+y.tab.h
+y.tab.c

@@ -13,6 +13,7 @@ X:A X B
 int yyerror(char *msg){
     printf("invalid string\n");
 }
+
 int main(){
     yyparse();
 }
