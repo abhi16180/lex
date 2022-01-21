@@ -11,7 +11,7 @@ Fork repo and create pull request to contribute
 #### YACC Compilation
 1.Navigate to directory containing lex and yacc programs
 2.Execute these commands (replace proper file name)
-*flex lexfile.l*
-*bison -yd yaccfile.y*
-*gcc lex.yy.c y.tab.c*
-*.\a.exe*
+  flex lexfile.l
+  bison -yd yaccfile.y
+  gcc lex.yy.c y.tab.c
+  .\a.exe
